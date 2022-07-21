@@ -9,6 +9,6 @@ Ex: docker run --rm -it -v ${PWD}:/usr/src -p 3000:3000 node:latest
 
 You can generally use the same pattern for all of these development machines, replacing the container tag (node:latest) with the containers below.
 
-# W
+## W
 
 * WasmEdge: `docker run -p 3000:3000 --rm -it -v ${PWD}:/usr/src wasmedge/appdev_x86_64:0.8.2`
